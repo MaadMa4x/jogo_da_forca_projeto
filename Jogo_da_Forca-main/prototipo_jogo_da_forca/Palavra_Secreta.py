@@ -19,7 +19,7 @@ class PalavraSecreta:
 
     def mostrar(self):
         # Mostra a palavra com as letras acertadas, as outras ficam com "_"
-        resultado = "" #uma palavra vazia.
+        resultado = " " #uma palavra vazia.
         for letra in self.palavra:
             if letra in self.letras_acertadas:
                 resultado += letra + " "  # o simbolo + está concatenando o que estáno resultado mais a letra atual digita pelo usuário
